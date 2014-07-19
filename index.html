@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>EZ Shopping List</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="name">E-Z Shopping List</h1>
+    </div>
+
+    <div id="row2">
+        <form name="checkListForm">
+            <input type="text" id="item" name="checkListItem" placeholder="Enter item here!" />
+        </form>
+
+        <div id="button">Add to list!</div>
+        <br/>
+
+        <h2 id="instructions">Click to cross out - Double click to delete</h2>
+        <div class="list"></div>
+    </div>
+
+    <audio id="delete-sound" src="sound/delete.wav"></audio>
+
+</body>
+
+</html>
