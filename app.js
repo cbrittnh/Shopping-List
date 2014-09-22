@@ -5,7 +5,7 @@ $(document).ready(function () {
         $("#item").val("");
     });
 
-    $(document).on('click', '.item', function () {
+    $(document).on("click", ".item", function () {
         $(this).css({
             "text-decoration": "line-through",
             color: "gray"
@@ -13,7 +13,7 @@ $(document).ready(function () {
         playDelete();
     });
 
-    $(document).on('dblclick', '.item', function () {
+    $(document).on("dblclick", ".item", function () {
         $(this).remove();
         playDelete();
     });
